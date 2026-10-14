@@ -562,7 +562,7 @@ h1 em {
 }
 .result-card {
   width: min(100%, 480px);
-  max-height: min(88svh, 760px);
+  height: auto;
   overflow: auto;
   position: relative;
   background: var(--paper);
@@ -632,6 +632,7 @@ h1 em {
   color: #9a8778;
   font-size: 12px;
   margin-top: 17px;
+  white-space: nowrap;
 }
 .result-sign strong {
   font-size: 16px;
@@ -740,7 +741,7 @@ h1 em {
 .all-head h2 {
   font-family: "Gowun Batang", serif;
   font-weight: 700;
-  font-size: clamp(25px, 3vw, 38px);
+  font-size: clamp(22px, 3vw, 38px);
   margin: 9px 0 7px;
 }
 .all-head h2 em {
