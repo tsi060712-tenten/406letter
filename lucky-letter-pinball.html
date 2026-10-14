@@ -1,0 +1,759 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f8f1e6" />
+
+    <title>최강406호 사랑을 담아..💕</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="나현쌤🩷406호">
+    <meta property="og:title" content="나현쌤🩷406호">
+    <meta property="og:description" content="이제 나현쌤의 품을 떠나려합니다..">
+    <meta property="og:image" content="img/image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="700">
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">NH</span><span>406호 사랑둥이들의 편지</span>
+        </div>
+        <div class="top-right"><b>♥</b><span>LUCKY LETTER PINBALL</span></div>
+      </header>
+      <main>
+        <section class="intro">
+          <div class="eyebrow" style="font-size: 0.75rem; font-weight: 500">
+            띵동띵동 ! 푸가 전달해드립니다 ~ ♥
+          </div>
+          <img
+            src="img/pooh.png"
+            alt=""
+            style="width: 300px; aspect-ratio: 1/1"
+          />
+          <p class="intro-copy">
+            공은 아홉 개, 편지도 아홉 장.<br />오늘의 벌칙자는 406호 너네 전부양
+            !<br />어떤 편지가 나올지는 이 귀욤둥이 푸도 몰라. ✳
+          </p>
+          <div class="pill">
+            <span>✦</span>너와 함께 보낸 어떤 날도 내가 가장 좋아하는
+            날이야<span>✦</span>
+          </div>
+        </section>
+
+        <section class="game-area" aria-label="핀볼 게임">
+          <div class="machine" id="machine">
+            <div class="machine-head">
+              <span class="lamp"></span> LUCKY PINBALL<span class="lamp"></span>
+            </div>
+            <div class="board" id="board">
+              <div class="rail left"></div>
+              <div class="rail right"></div>
+              <div class="bar b1"></div>
+              <div class="bar b2"></div>
+              <div class="bar b3"></div>
+              <div class="bar b4"></div>
+              <div class="bar b5"></div>
+              <div class="bar b6"></div>
+              <div class="bar b7"></div>
+              <div class="bar b8"></div>
+              <div class="funnel"><div class="funnel-mouth"></div></div>
+              <div
+                class="ball"
+                data-person="0"
+                style="
+                  left: 12%;
+                  top: 4%;
+                  --duration: 2.7s;
+                  --delay: 0s;
+                  --x1: 15px;
+                  --x2: 35px;
+                  --x3: -20px;
+                  --x4: 40px;
+                  --x5: -20px;
+                  --x6: 35px;
+                  --endx: 45px;
+                  --endy: 320px;
+                "
+              >
+                <span>용일</span>
+              </div>
+              <div
+                class="ball"
+                data-person="1"
+                style="
+                  left: 23%;
+                  top: 2%;
+                  --duration: 2.8s;
+                  --delay: 0.04s;
+                  --x1: -18px;
+                  --x2: 22px;
+                  --x3: 48px;
+                  --x4: -20px;
+                  --x5: 30px;
+                  --x6: -30px;
+                  --endx: -20px;
+                  --endy: 330px;
+                "
+              >
+                <span>욱햄</span>
+              </div>
+              <div
+                class="ball"
+                data-person="2"
+                style="
+                  left: 34%;
+                  top: 5%;
+                  --duration: 2.6s;
+                  --delay: 0.02s;
+                  --x1: 28px;
+                  --x2: -20px;
+                  --x3: 30px;
+                  --x4: 50px;
+                  --x5: -28px;
+                  --x6: 18px;
+                  --endx: 30px;
+                  --endy: 320px;
+                "
+              >
+                <span>형서</span>
+              </div>
+              <div
+                class="ball"
+                data-person="3"
+                style="
+                  left: 45%;
+                  top: 2%;
+                  --duration: 2.9s;
+                  --delay: 0.08s;
+                  --x1: -25px;
+                  --x2: 35px;
+                  --x3: -35px;
+                  --x4: 24px;
+                  --x5: 50px;
+                  --x6: -25px;
+                  --endx: 10px;
+                  --endy: 335px;
+                "
+              >
+                <span>영완</span>
+              </div>
+              <div
+                class="ball"
+                data-person="4"
+                style="
+                  left: 56%;
+                  top: 4%;
+                  --duration: 2.65s;
+                  --delay: 0.03s;
+                  --x1: 20px;
+                  --x2: -30px;
+                  --x3: 35px;
+                  --x4: -35px;
+                  --x5: 25px;
+                  --x6: 45px;
+                  --endx: -25px;
+                  --endy: 325px;
+                "
+              >
+                <span>방방</span>
+              </div>
+              <div
+                class="ball"
+                data-person="5"
+                style="
+                  left: 67%;
+                  top: 2%;
+                  --duration: 2.85s;
+                  --delay: 0.06s;
+                  --x1: -20px;
+                  --x2: 25px;
+                  --x3: -40px;
+                  --x4: 28px;
+                  --x5: -25px;
+                  --x6: 30px;
+                  --endx: 20px;
+                  --endy: 330px;
+                "
+              >
+                <span>본조르노</span>
+              </div>
+              <div
+                class="ball"
+                data-person="6"
+                style="
+                  left: 78%;
+                  top: 5%;
+                  --duration: 2.75s;
+                  --delay: 0.01s;
+                  --x1: 18px;
+                  --x2: -25px;
+                  --x3: 25px;
+                  --x4: -28px;
+                  --x5: 38px;
+                  --x6: -20px;
+                  --endx: -30px;
+                  --endy: 325px;
+                "
+              >
+                <span>빵민</span>
+              </div>
+              <div
+                class="ball"
+                data-person="7"
+                style="
+                  left: 18%;
+                  top: 16%;
+                  --duration: 2.7s;
+                  --delay: 0.1s;
+                  --x1: 25px;
+                  --x2: 45px;
+                  --x3: -30px;
+                  --x4: 22px;
+                  --x5: -35px;
+                  --x6: 20px;
+                  --endx: 35px;
+                  --endy: 320px;
+                "
+              >
+                <span>빵재</span>
+              </div>
+              <div
+                class="ball"
+                data-person="8"
+                style="
+                  left: 73%;
+                  top: 17%;
+                  --duration: 2.9s;
+                  --delay: 0.07s;
+                  --x1: -25px;
+                  --x2: -35px;
+                  --x3: 30px;
+                  --x4: -20px;
+                  --x5: 40px;
+                  --x6: -30px;
+                  --endx: -35px;
+                  --endy: 335px;
+                "
+              >
+                <span>아가</span>
+              </div>
+            </div>
+          </div>
+          <div class="start-row">
+            <div class="hint" id="hint">
+              당첨된 학생은 무사히 수료완료! <br>다음 편지를 뽑아서 전부 수료시키자 ♡
+            </div>
+            <div class="start-actions">
+              <button class="all-letters-btn" id="allLettersBtn" type="button">
+                편지 전체 보기 ↗</button
+              ><button class="start-btn" id="startBtn">START PINBALL ↗</button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <section
+        class="all-letters hidden"
+        id="allLetters"
+        aria-label="편지 전체 보기"
+      >
+        <div class="all-head">
+          <div>
+            <h2>마음이 담긴 406호의 편지들 <em>♡</em></h2>
+            <p>한 장씩 넘겨보면서 편지를 모두 읽어보세요</p>
+          </div>
+          <button class="all-close" id="closeAllLetters" type="button">
+            핀볼로 돌아가기 ×
+          </button>
+        </div>
+        <div class="carousel-shell">
+          <button
+            class="carousel-arrow"
+            id="lettersPrev"
+            type="button"
+            aria-label="이전 편지들"
+          >
+            ←
+          </button>
+          <div class="carousel-viewport" id="lettersViewport">
+            <div class="carousel-track" id="lettersTrack"></div>
+          </div>
+          <button
+            class="carousel-arrow"
+            id="lettersNext"
+            type="button"
+            aria-label="다음 편지들"
+          >
+            →
+          </button>
+        </div>
+        <div class="carousel-bottom">
+          <div class="carousel-dots" id="carouselDots"></div>
+          <span id="carouselStatus">01 — 09</span>
+        </div>
+      </section>
+    </div>
+
+    <div
+      class="result"
+      id="result"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="resultTitle"
+    >
+      <article class="result-card">
+        <div class="result-inner">
+          <h2 id="resultTitle">핀볼 <em>당첨</em></h2>
+          <div class="result-sub" id="resultSub">
+            운명의 공이 편지를 골랐어.
+          </div>
+          <div class="winner-name" id="winnerName">♥ LUCKY LETTER 01</div>
+          <div class="result-message" id="resultMessage"></div>
+          <div class="result-sign" id="resultSign"></div>
+          <div class="result-actions">
+            <button id="closeBtn" class="secondary">편지 간직하기 ♡</button
+            ><button id="retryBtn">한 번 더 뽑기 ↻</button>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="toast" id="toast" role="status">행운의 편지가 도착했어 ♥</div>
+
+    <script>
+      /*
+  편지 9개 수정하기:
+  - name: 당첨 화면에 표시할 이름/번호
+  - title: 편지 제목
+  - message: 편지 본문 (줄바꿈은 \n)
+  - from: 작성자 이름
+  실제 이름과 편지 내용으로 아래 9개를 수정해 주세요.
+*/
+      const letters = [
+        {
+          name: "LETTER 용일",
+          title: "슨샌님~ 바나나먹으면 용일이한테 바나나..?🍌",
+          message: "5월에 처음 학원에 왔을 때 저는 그냥 그래픽을 배워보고 싶다는 마음으로 시작했습니다.그런데 수업을 하다보니 생각지도 못했던 코딩까지 배우게 됐네요. 사실 처음에는 걱정이 많았어요.\\n학생들 대부분이 2-30대 이고 선생님도 저보다 훨씬 젊으신데, 50대인 제가 과연수업을 잘 따라갈 수 있을까 싶었습니다.\\n아마 제가 젊은 학생들처럼 빨리 이해하지 못해서 답답하실 때도 있으셨을 것 같은데 잘 알려주시고 기다려주셔서 정말 감사했습니다.\\n\\n이번 시간을 통해서 나이가 있어도 새로운 걸 배우고 도전할 수 있다는 것도 다시 느꼈습니다. 포기하지 않고 여기까지 온 만큼, 앞으로도 배운 것들을 잊지 않고 계속 해보려고 합니다.\\n긴 시간동안 정말 고생 많으셨고 진심으로 감사했습니다:)\\n",
+          from: "늘 응원하는 용일",
+        },
+        {
+          name: "LETTER 욱햄",
+          title: "이렇게 하지 않으면..나현쨩이 내맘을 몰라준다궁..!떼잉!",
+          message: "처음 학원에 왔을 때가 엊그제 같은데 벌써 마지막 수업이라니, 시간이 참 빠른 것 같아요 처음에는 낯설고 어렵게만 느껴졌던 것들이 어느새 제 손으로 결과물을 만들어 낼 수 있게 되었다는 게 신기하면서도 뿌듯합니다.\\n생각처럼 되지 않는 날도 많고, 부족한 제 모습을 보면서 스스로 조급해지기도 했지만, 그 과정을 겪고 이렇게 수료할 수 있었던 건 다 선생님이 옆에서 알려주시고, 언제라도 저희를 위해 희생해주신 덕분이라고 생각해요 ! 정말 재미있는 일들 가득했던 나날들이었어요. 앞으로 푸우 인형 볼 때마다 선생님 생각 많이 날 거에요 ㅎㅎ \\n\\n그럼 20000, 불초제자 하산합니당. 다음주 영상 수업때 봬요 ㅎㅎ 그동안 정말, 정말로 감사했습니다 !",
+          from: "F코스프레하는 T 욱햄",
+        },
+        {
+          name: "LETTER 형서",
+          title: "얼마나 감사한지 감도 안 와요..따흑!",
+          message: "나현 선생님 !! 저희가 벌써 5개월이 지난 게 안 믿겨요 꺄울 ~~!!!!\\n처음에 학원 다녔을 때 잘 맞을까 엄청 고민하면서 나왔는데 선생님이랑 저희 반이 너무너무 좋아서 순식간에 시간이 지나간 것 같아요. \\n선생님 진짜 많이 좋아해요 선생님은 푸를 닮았어요\\n역시 좋아하면 닮는다는 말이 사실인가봐요.\\n저 힘들어할 때 옆에서 많이 힘 주셔서 그때 진짜 위로 많이 받았어요. 선생님이랑은 앞으로도 계속 잘 지내고 싶어요 선생님 잘 가르쳐주시고 인도해주셔서 감사합니다 💖",
+          from: "쌤를 아끼는 비타민 형서",
+        },
+        {
+          name: "LETTER 영완",
+          title: "나의 빛, 나의 소금, 그 이름 .. KNH..",
+          message:
+            "어웅 선생님 .. 그동안 저희반 가르쳐주시느라 너무 고생 많으셨어요..~ \\n덕분에 저 자격증도 따고 포폴도 만들고 성장이 머리 끝까지 업그레이드 됐어요.처음에는 모르는 것도 많고 어려운 것도 많았는데 쌤이 하나하나 알려주시고 도와주신 덕분에 여기까지 올 수 있었던 것 같아요 ㅎㅎ\\n이제 취업해서 쌤한테 배운거 있지 않고 열심히 할게요 그동안 정말 감사했고 쌤이랑 함께한 시간 오래오래 기억할게요!! \\n\\n재현쌤이랑도 행복하히고 좋은 일만 가득 하셨으면 좋겠어요 ! 쌤 건강 잘 챙기시고 앞으로도 행복한 일만 가득하세요!! 정말 감사했어요 쌤💖💖",
+          from: "고마운 마음 가득한 영완",
+        },
+        {
+          name: "LETTER 방방",
+          title: "흑막마냥 코딩을 조종하는..나현쌤의 미니미..",
+          message:
+            "선생님 .. 안녕하세요 (눈물)\\n헤어질 생각하니까 벌써 눈물이 나와서 .. \\n5월에 만났을 때가 엊그제같은데 벌써 수료라니 말도 안됩니댜 !! 과정 한번 더 반복해요 !!!!\\n저도 선생님처럼 멋있는 사람이 되고 싶어요 선생님덕분에 학원 다니는게 너무 재밌었어요 ㅎㅎ 다른 선생님 만났으면 죽은채로 다녔을지도 몰라요 .. 히히 아직 저를 향한 사랑이 푸를 향한 사랑보다 한참 아래겠지만,, \\n\\n 제가 푸 뱃살 밑까지는 따라잡았을거라고 기대..해도.. 될..까요 ? \\n또 볼 수 있으면 좋겠어요 선생님 .. 아이시떼룻!! 감사해요 !! 🎁",
+          from: "쌤을 미소짓게 하는 에이스 방방",
+        },
+        {
+          name: "LETTER 본조르노",
+          title: "치즈마냥 늘어지게 사랑하는 선생님께🧀",
+          message:
+            "코딩의 ㅋ도 모르던 저를 기능사 합격까지 이끌어주셔서 감사합니다.. 다 선생님 덕이에요\\n수업도 재밌게 해주시고 쌤이 전해준 꿀팁 덕분에 코딩도 할 줄 아는 디자이너가 될 수 있었습니다.\\n\\n앞으로 현업에서도 배운 내용을 바탕으로 열심히 하는 사람이 되겠습니다.\\n건강하시고 늘 좋은 일만 가득하세요 !\\n그동안 감사했습니다 (눈물)",
+          from: "쌤 편인 맘마미아 본조르노",
+        },
+        {
+          name: "LETTER 빵민",
+          title: "그러니까 저는 왜 핀볼을 돌려야하냐고요",
+          message:
+            "선생님 서영민입니다.\\n그동안 고생 많으셨습니다.\\n그리고 제가 지금까지 한번도 말씀을 못 드렸는데 .. \\n 이 기회에 용기내어 마음을 전해볼래요..(부끄)\\n그게 무슨 말이냐 하면 말이죠 .... 음..... 큼큼 ..\\n\\n선생님..(아련)  맥주 좀 적당히 드시고 잠 좀 주무세요 \\n이제 건강 생각할 나이입니다.😎\\n불철주야 부어라마셔라 하시면 선생님의 배는 푸마냥 부풀어 오를거에요 \\n그럼 20000,,ㅌㅌ",
+          from: "샌드백 및 장난감 및 조력자 감자",
+        },
+        {
+          name: "LETTER 빵재",
+          title: "나현쌤이 나라다 ! 나현쌤을 국회로 !",
+          message:
+            "안녕하세요 선생님 ! \\n5개월동안 친절하게 가르쳐 주시고 항상 분위기를 이끌어 주셔서 감사드립니다. \\n선생님 덕분에 학원에 오는 5개월이 지루하지 않고 즐겁고 기대되는 시간이었고 이해하기 힘든 코딩을 많이 배워갑니다.\\n\\n비록 5개월이라는 시간이 짧다면 짧은 시간이지만 그동안 배운 것들을 잘 기억하고 선생님의 가르침을 마음에 새기며 앞으로도 더 노력하겠습니다.\\n항상 건강하시고 행복하세요 !! 고생하셨어요 ~!!\\n (대충 금요일 재현이 엔딩멘트)",
+          from: "선생님 빵드실래요? 빵재",
+        },
+        {
+          name: "LETTER 아가",
+          title: "아직 신에게는 200번의 핀볼이 남았습니다..",
+          message:
+            "나현쌤 ~ 쌤의 애착인형 아가 리재입니다. \\n 이제 고생 끗 행복 시작이네요 ? 지금까지 제 장난 받아주셔서 감사합니다. 앞으로도 잘 부탁드려요(뭘?)\\n 선생님 덕분에 자알~~~~~~~~놀다갑니다!\\n성공해서 돌아올게요 그때 꼭 같이 오마카세 가요!\\n 제가 쌤 카드로 쏠게요 !!!(으이야아앗!!!!!)\\n\\n그동안 많은걸 알려주셔서 너무 유익한 시간이었습니다. 기억해뒀다가 필요할 때 까먹겠습니다. 다시 수강하러 올게요\\n그때까지 퇴사하지마시고 있어주세요 씨유.",
+          from: "푸를 납치하는 애착인형 아가",
+        },
+      ];
+
+      const allLettersSection = document.getElementById("allLetters");
+      const lettersTrack = document.getElementById("lettersTrack");
+      const lettersViewport = document.getElementById("lettersViewport");
+      const carouselDots = document.getElementById("carouselDots");
+      let carouselIndex = 0;
+      function escapeText(value) {
+        return String(value).replace(
+          /[&<>"']/g,
+          (c) =>
+            ({
+              "&": "&amp;",
+              "<": "&lt;",
+              ">": "&gt;",
+              '"': "&quot;",
+              "'": "&#39;",
+            })[c],
+        );
+      }
+      function slidesPerView() {
+        return window.innerWidth <= 560 ? 1 : window.innerWidth <= 900 ? 2 : 3;
+      }
+      function maxCarouselIndex() {
+        return Math.max(0, letters.length - slidesPerView());
+      }
+      function renderLetterSlides() {
+        lettersTrack.innerHTML = letters
+          .map(
+            (letter, i) =>
+              `<article class="letter-slide"><div class="letter-slide-inner"><div class="slide-kicker">A LITTLE NOTE · ${String(i + 1).padStart(2, "0")}</div><span class="slide-number">${String(i + 1).padStart(2, "0")}</span><h3>${escapeText(letter.title)}</h3><p>${escapeText(letter.message.replace(/\\n/g, "\n"))}</p><div class="slide-from">from. ${escapeText(letter.from)} ♡</div></div></article>`,
+          )
+          .join("");
+        carouselDots.innerHTML = "";
+        for (let i = 0; i <= maxCarouselIndex(); i++) {
+          const dot = document.createElement("button");
+          dot.className =
+            "carousel-dot" + (i === carouselIndex ? " active" : "");
+          dot.type = "button";
+          dot.setAttribute("aria-label", `편지 ${i + 1}번째 묶음 보기`);
+          dot.addEventListener("click", () => {
+            carouselIndex = i;
+            updateCarousel();
+          });
+          carouselDots.appendChild(dot);
+        }
+        updateCarousel();
+      }
+      function updateCarousel() {
+        carouselIndex = Math.max(
+          0,
+          Math.min(carouselIndex, maxCarouselIndex()),
+        );
+        const first = lettersTrack.querySelector(".letter-slide");
+        if (first) {
+          const gap = parseFloat(getComputedStyle(lettersTrack).gap) || 0;
+          lettersTrack.style.transform = `translateX(-${carouselIndex * (first.getBoundingClientRect().width + gap)}px)`;
+        }
+        [...carouselDots.children].forEach((dot, i) =>
+          dot.classList.toggle("active", i === carouselIndex),
+        );
+        document.getElementById("carouselStatus").textContent =
+          `${String(carouselIndex + 1).padStart(2, "0")} — ${String(Math.min(letters.length, carouselIndex + slidesPerView())).padStart(2, "0")} / 09`;
+        document.getElementById("lettersPrev").disabled = carouselIndex === 0;
+        document.getElementById("lettersNext").disabled =
+          carouselIndex === maxCarouselIndex();
+      }
+      document.getElementById("allLettersBtn").addEventListener("click", () => {
+        allLettersSection.classList.remove("hidden");
+        renderLetterSlides();
+        allLettersSection.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      });
+      document
+        .getElementById("closeAllLetters")
+        .addEventListener("click", () => {
+          allLettersSection.classList.add("hidden");
+          document
+            .querySelector(".game-area")
+            .scrollIntoView({ behavior: "smooth", block: "center" });
+        });
+      document.getElementById("lettersPrev").addEventListener("click", () => {
+        carouselIndex--;
+        updateCarousel();
+      });
+      document.getElementById("lettersNext").addEventListener("click", () => {
+        carouselIndex++;
+        updateCarousel();
+      });
+      let swipeStartX = 0;
+      lettersViewport.addEventListener(
+        "touchstart",
+        (e) => {
+          swipeStartX = e.changedTouches[0].screenX;
+        },
+        { passive: true },
+      );
+      lettersViewport.addEventListener(
+        "touchend",
+        (e) => {
+          const d = e.changedTouches[0].screenX - swipeStartX;
+          if (Math.abs(d) > 45) {
+            carouselIndex += d < 0 ? 1 : -1;
+            updateCarousel();
+          }
+        },
+        { passive: true },
+      );
+      window.addEventListener("resize", () => {
+        if (!allLettersSection.classList.contains("hidden"))
+          renderLetterSlides();
+      });
+
+      const machine = document.getElementById("machine");
+      const board = document.getElementById("board");
+      const balls = [...document.querySelectorAll(".ball")];
+      const startBtn = document.getElementById("startBtn");
+      const hint = document.getElementById("hint");
+      const ballCount = document.getElementById("ballCount");
+      const result = document.getElementById("result");
+      const resultTitle = document.getElementById("resultTitle");
+      const resultSub = document.getElementById("resultSub");
+      const winnerName = document.getElementById("winnerName");
+      const resultMessage = document.getElementById("resultMessage");
+      const resultSign = document.getElementById("resultSign");
+      const toast = document.getElementById("toast");
+      let busy = false,
+        chosenIndex = -1,
+        toastTimer;
+      const picked = new Set();
+
+      function randomInt(max) {
+        return Math.floor(Math.random() * max);
+      }
+      function showConfetti() {
+        const chars = ["♥", "✦", "✳", "✧"];
+        const colors = ["#8b3548", "#c89d5b", "#e8b8b5", "#fff1d7"];
+        for (let i = 0; i < 42; i++) {
+          const el = document.createElement("span");
+          el.className = "confetti";
+          el.textContent = chars[randomInt(chars.length)];
+          el.style.left = Math.random() * 100 + "vw";
+          el.style.color = colors[randomInt(colors.length)];
+          el.style.fontSize = 10 + Math.random() * 13 + "px";
+          el.style.setProperty("--drift", Math.random() * 180 - 90 + "px");
+          el.style.animationDelay = Math.random() * 0.4 + "s";
+          document.body.appendChild(el);
+          setTimeout(() => el.remove(), 3000);
+        }
+      }
+      function updateRemaining() {
+        const remaining = letters.length - picked.size;
+        // HTML에 ballCount가 없어도 오류가 발생하지 않도록 수정
+        if (ballCount) {
+          ballCount.textContent = String(remaining).padStart(2, "0");
+        }
+        balls.forEach((ball, i) => {
+          if (picked.has(i)) {
+            ball.style.display = "none";
+            ball.setAttribute("aria-hidden", "true");
+          } else {
+            ball.style.display = "grid";
+            ball.style.opacity = "1";
+            ball.style.transform = "";
+            ball.classList.remove("winner");
+            ball.setAttribute("aria-hidden", "false");
+          }
+        });
+        if (remaining === 0) {
+          startBtn.disabled = true;
+          startBtn.textContent = "ALL LETTERS FOUND ✓";
+          hint.innerHTML =
+            "학생들 모두를 수료시켰어! <br>새로고침하면 다시 시작할 수 있어.";
+        }
+      }
+      function startGame() {
+        if (busy || picked.size === letters.length) return;
+        busy = true;
+        const available = letters
+          .map((_, i) => i)
+          .filter((i) => !picked.has(i));
+        chosenIndex = available[randomInt(available.length)];
+        startBtn.disabled = true;
+        startBtn.textContent = "ROLLING...";
+        hint.innerHTML =
+          "범퍼에 부딪히며 내려가는 중!<br>한 개의 깔때기 출구로 모이고 있어 ✨";
+        result.classList.remove("show");
+        board.classList.remove("flash");
+        const boardRect = board.getBoundingClientRect();
+        const boardW = board.clientWidth,
+          boardH = board.clientHeight;
+        const activeBalls = balls.filter((_, i) => !picked.has(i));
+        const animations = [];
+        activeBalls.forEach((ball) => {
+          const idx = Number(ball.dataset.person);
+          ball.getAnimations().forEach((a) => a.cancel());
+          ball.classList.remove("winner");
+          ball.style.opacity = "1";
+          ball.style.transform = "";
+          const sx = ball.offsetLeft,
+            sy = ball.offsetTop,
+            bw = ball.offsetWidth,
+            bh = ball.offsetHeight;
+          const dxs = [
+            (Math.random() - 0.5) * boardW * 0.22,
+            (Math.random() - 0.5) * boardW * 0.28,
+            (Math.random() - 0.5) * boardW * 0.22,
+          ];
+          const dys = [boardH * 0.17, boardH * 0.34, boardH * 0.52];
+          let frames;
+          if (idx === chosenIndex) {
+            ball.classList.add("winner");
+            const targetX = boardW / 2 - (sx + bw / 2);
+            const targetY = boardH - bh / 2 - sy + bh * 0.35;
+            frames = [
+              { transform: "translate(0,0) rotate(0deg) scale(1)", offset: 0 },
+              {
+                transform: `translate(${dxs[0]}px,${dys[0]}px) rotate(110deg) scale(1.03)`,
+                offset: 0.18,
+              },
+              {
+                transform: `translate(${dxs[1]}px,${dys[1]}px) rotate(-75deg) scale(.98)`,
+                offset: 0.39,
+              },
+              {
+                transform: `translate(${dxs[2]}px,${dys[2]}px) rotate(180deg) scale(1.04)`,
+                offset: 0.61,
+              },
+              {
+                transform: `translate(${targetX * 0.62}px,${boardH * 0.72 - sy}px) rotate(390deg) scale(.92)`,
+                offset: 0.82,
+              },
+              {
+                transform: `translate(${targetX}px,${targetY}px) rotate(540deg) scale(.82)`,
+                opacity: 1,
+                offset: 1,
+              },
+            ];
+          } else {
+            const endX = (Math.random() - 0.5) * boardW * 0.12;
+            frames = [
+              { transform: "translate(0,0) rotate(0deg)", offset: 0 },
+              {
+                transform: `translate(${dxs[0]}px,${dys[0]}px) rotate(115deg)`,
+                offset: 0.2,
+              },
+              {
+                transform: `translate(${dxs[1]}px,${dys[1]}px) rotate(245deg)`,
+                offset: 0.43,
+              },
+              {
+                transform: `translate(${dxs[2]}px,${dys[2]}px) rotate(370deg)`,
+                offset: 0.65,
+              },
+              {
+                transform: `translate(${endX}px,${boardH * 0.58}px) rotate(480deg)`,
+                opacity: 0.35,
+                offset: 0.8,
+              },
+              {
+                transform: `translate(${endX}px,${boardH * 0.78}px) rotate(600deg)`,
+                opacity: 0,
+                offset: 1,
+              },
+            ];
+          }
+          const anim = ball.animate(frames, {
+            duration: idx === chosenIndex ? 3100 : 2700 + Math.random() * 350,
+            easing: "cubic-bezier(.22,.72,.24,1)",
+            fill: "forwards",
+          });
+          animations.push(
+            anim.finished.catch(() => {}).then(() => ({ idx, ball })),
+          );
+        });
+        setTimeout(() => board.classList.add("flash"), 2350);
+        Promise.all(animations).then(() => {
+          board.classList.remove("flash");
+          picked.add(chosenIndex);
+          const winner = balls[chosenIndex];
+          // No pop/bounce: the selected ball keeps full opacity while sliding straight down the single exit.
+          winner.style.display = "none";
+          winner.style.opacity = "1";
+          winner.style.transform = "";
+          updateRemaining();
+          revealLetter(chosenIndex);
+          busy = false;
+          if (picked.size < letters.length) {
+            startBtn.disabled = false;
+            startBtn.textContent = "PLAY AGAIN ↻";
+            hint.innerHTML =
+              "추억의 핀볼 ! <br>마지막까지 야무지게 핀볼 돌려보자푸!♡";
+          }
+        });
+      }
+      function revealLetter(index) {
+        const letter = letters[index];
+        resultTitle.innerHTML = "POOH's <em>PICK!</em>";
+        resultSub.textContent = "띠로롱— 푸 핀볼이 간택한 사람은 ~?";
+        winnerName.textContent = "♥ " + letter.name;
+        resultMessage.textContent =
+          letter.title + "\n\n" + letter.message.replace(/\\n/g, "\n");
+        resultSign.innerHTML =
+          "from. <strong>" + escapeHTML(letter.from) + " ♡</strong>";
+        result.classList.add("show");
+        showConfetti();
+      }
+      function escapeHTML(str) {
+        return String(str).replace(
+          /[&<>"']/g,
+          (c) =>
+            ({
+              "&": "&amp;",
+              "<": "&lt;",
+              ">": "&gt;",
+              '"': "&quot;",
+              "'": "&#39;",
+            })[c],
+        );
+      }
+      function closeResult() {
+        result.classList.remove("show");
+      }
+      // Remember each ball's original position so unpicked balls can reset between rounds.
+      const initialBallPositions = balls.map((ball) => ({
+        left: ball.style.left,
+        top: ball.style.top,
+      }));
+      function resetBallPositions() {
+        balls.forEach((ball, i) => {
+          ball.style.left = initialBallPositions[i].left;
+          ball.style.top = initialBallPositions[i].top;
+          ball.style.bottom = "";
+          ball.style.zIndex = "4";
+          ball.getAnimations().forEach((a) => a.cancel());
+        });
+      }
+      startBtn.addEventListener("click", () => {
+        resetBallPositions();
+        startGame();
+      });
+      document
+        .getElementById("closeBtn")
+        .addEventListener("click", closeResult);
+      document.getElementById("retryBtn").addEventListener("click", () => {
+        closeResult();
+        setTimeout(() => {
+          resetBallPositions();
+          startGame();
+        }, 280);
+      });
+      result.addEventListener("click", (e) => {
+        if (e.target === result) closeResult();
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeResult();
+      });
+      updateRemaining();
+    </script>
+  </body>
+</html>
